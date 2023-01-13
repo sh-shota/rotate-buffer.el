@@ -16,16 +16,19 @@ other-window が巡回する順に window を移動させていくので window の配置
 
 ** 動作例右回転 (window が 3 つあるとき)
 | buffer1 | buffer2 |
+|         | ------- |
 |         | buffer3 |
 
 ↓
 
 | buffer3 | buffer1 |
+|         | ------- |
 |         | buffer2 |
 
 ↓
 
 | buffer2 | buffer1 |
+|         | ------- |
 |         | buffer2 |
 
 
