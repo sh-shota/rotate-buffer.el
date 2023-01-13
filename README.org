@@ -2,7 +2,7 @@
 開いている buffer が複数ある時に、buffer の位置を右回転・左回転で入れ
 替えて移動できる emacs の拡張機能です。
 
-other-window が巡回する順に window を移動させていくので window の配置
+other-window が巡回する順に buffer を移動させていくので window の配置
 によっては回転しているようには見えません。
 
 単純に window にある buffer を入れ替えるような拡張機能と違い window が
