@@ -1,0 +1,31 @@
+* rotate-buffer.el
+開いている buffer が複数ある時に、buffer の位置を右回転・左回転で入れ
+替えて移動できる emacs の拡張機能です。
+
+other-window が巡回する順に window を移動させていくので window の配置
+によっては回転しているようには見えません。
+
+既存の物と違い window がいくつあっても動作します。
+
+* how to use
+デフォルトの key binding では `M-[` を入力することで左回転、 `M-]` を
+入力することで 右回転できるようになっています。
+
+** 動作例右回転 (window が 3 つあるとき)
+| buffer1 | buffer2 |
+|         | buffer3 |
+
+↓
+
+| buffer3 | buffer1 |
+|         | buffer2 |
+
+↓
+
+| buffer2 | buffer1 |
+|         | buffer2 |
+
+
+* installation
+rotate-buffer.el に記述されている内容をホームディレクトリ下の .emacs
+に書くか、rotate-buffer.el をダウンロードしパスを通す。
