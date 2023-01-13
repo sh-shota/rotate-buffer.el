@@ -27,9 +27,9 @@ other-window が巡回する順に window を移動させていくので window の配置
 
 ↓
 
-| buffer2 | buffer1 |
+| buffer2 | buffer3 |
 |         | ------- |
-|         | buffer2 |
+|         | buffer1 |
 
 
 * installation
