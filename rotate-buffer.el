@@ -1,5 +1,5 @@
 (defun right-rotate-buffer()
-  "M-] for right rotate visble buffers"
+  "M-] : right rotate visble buffers"
   (interactive)
   (setq buffers (cons (window-buffer) `()))
   (setq windows (cons (selected-window) `()))
@@ -24,7 +24,7 @@
   )
 
 (defun left-rotate-buffer()
-  "M-[ for right rotate visble buffers"
+  "M-[ : right rotate visble buffers"
   (interactive)
   (setq buffers (cons (window-buffer) `()))
   (setq windows (cons (selected-window) `()))
