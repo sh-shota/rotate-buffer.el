@@ -48,3 +48,6 @@
     (setq itr (1+ itr))
     )
   )
+
+(global-set-key "\M-]" `right-rotate-buffer)
+(global-set-key "\M-[" `left-rotate-buffer)
